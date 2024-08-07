@@ -31,7 +31,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.number1.to_hexadecimal(), '0')
         self.assertEqual(self.number2.to_hexadecimal(), '1')
         self.assertEqual(self.number3.to_hexadecimal(), '14')
-        self.assertEqual(self.number4.to_hexadecimal(), 'FA')
+        self.assertEqual(self.number4.to_hexadecimal(), 'fa')
         self.assertEqual(self.number5.to_hexadecimal(), '-33')
 
 #if __name__ == '__testy__':
